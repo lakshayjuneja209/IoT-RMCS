@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StopW</string>
+    <string name="button_send">str</string>
+    <string name="edit_message">Wifi SSID</string>
+    <string name="password">Password</string>
+    <string name="connect">Connect</string>
+    <string name="title_activity_admin">Admin</string>
+</resources>
