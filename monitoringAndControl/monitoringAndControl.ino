@@ -13,10 +13,10 @@
 //static const uint8_t D9   = 3;
 //static const uint8_t D10  = 1;
 
-char* ssid     = "AndroidAP";
-char* password = "jgkc3596";
+char* ssid     = "<SSID>"; //Replace <SSID> with your wifi's ssid 
+char* password = "<PASS>"; //Replace <PASS> with your wifi's password
 
-const char* host = "192.168.43.212";
+const char* host = "<HOST>"; //Replace <HOST> with the address where 'webPortal' is hosted
 
 const int dataSize = 20;
 const int gasPin = A0;
