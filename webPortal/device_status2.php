@@ -4,7 +4,7 @@
     // Prepare the SQL statement
     // $idparam = $_GET["id"];
 
-    $sql = "SELECT STATUS FROM dcw.machine_status";
+    $sql = "SELECT STATUS FROM ".$my_db.".machine_status";
 
     // Execute SQL statement
 

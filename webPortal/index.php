@@ -123,7 +123,7 @@
 </head>
 <body>
 <center>
-<br><br><h1>Weather Monitor</h1><a href="javascript: window.location.reload()"><img src="img/61225.png" width="20px" style="margin: 0 15px"></a>
+<!-- <br><br><h1>Weather Monitor</h1><a href="javascript: window.location.reload()"><img src="img/61225.png" width="20px" style="margin: 0 15px"></a>
 <table class="rwd-table">
   <tr>
     <th>S. No.</th>
@@ -131,10 +131,10 @@
     <th>Humidity</th>
     <th>Smoke Level</th>
     <th>Date & Time</th>
-  </tr>
+  </tr> -->
   <?php 
  	require 'config.php';
-	$query = 'select * from data';
+	/*$query = 'select * from data';
 	if($my_queryOutput = mysqli_query($my_conn,$query)) {
 		$value = 1;
 		if(mysqli_num_rows($my_queryOutput) == NULL){
@@ -162,11 +162,11 @@
   				$value++;
 			}
 		}	
-	}	
+	}	*/
   ?>
-</table>
+<!-- </table> -->
 </center>
-<br><br>
+<!-- <br><br> -->
 <center>
 <h1>Device Manager</h1><br><br>
   Device 1 &nbsp;&nbsp;&nbsp;

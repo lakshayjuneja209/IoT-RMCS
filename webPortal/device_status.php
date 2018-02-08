@@ -3,7 +3,7 @@
 
     // Prepare the SQL statement
 
-    $query = "SELECT * from  dcw.machine_status";    
+    $query = "SELECT * from ".$my_db.".machine_status";    
 
     // Execute SQL statement
 

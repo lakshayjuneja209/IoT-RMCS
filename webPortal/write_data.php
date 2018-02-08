@@ -3,7 +3,7 @@
 
     // Prepare the SQL statement
 
-    $sql = "INSERT INTO dcw.data (temp,humid,smoke) VALUES ('".$_GET["temp1"]."','".$_GET["humid1"]."','".$_GET["smoke1"]."')";    
+    $sql = "INSERT INTO ".$my_db.".data (temp,humid,smoke) VALUES ('".$_GET["temp1"]."','".$_GET["humid1"]."','".$_GET["smoke1"]."')";    
 
     // Execute SQL statement
 
