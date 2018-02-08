@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
     <string name="app_name">StopW</string>
     <string name="button_send">str</string>
@@ -6,3 +7,13 @@
     <string name="connect">Connect</string>
     <string name="title_activity_admin">Admin</string>
 </resources>
+=======
+<resources>
+    <string name="app_name">StopW</string>
+    <string name="button_send">str</string>
+    <string name="edit_message">Wifi SSID</string>
+    <string name="password">Password</string>
+    <string name="connect">Connect</string>
+    <string name="title_activity_admin">Admin</string>
+</resources>
+>>>>>>> eb3cf4fd966880dca453773e4798c8240d7aa817
